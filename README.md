@@ -4,21 +4,25 @@ Offline Swagger: https://asifiqbalsekh.github.io/requirement-service-application
 
 ## Project Overview
 
-The requirement-service-application is a Spring Boot-based application designed to help organizations find the right personnel
-based on their skill sets. It consists of two main services:
+The requirement-service-application is a Spring Boot-based application designed to help
+organizations find the right personnel based on their skill sets. It consists of two main
+services:
 
 - ** External Recruitment Service **
 - ** Internal Recruitment Service **
 
-The application integrates with a MySQL database, implements a caching mechanism using Redis, and uses HTTP basic authentication.
-API documentation is provided using ** OpenAPI Swagger **.
+The application integrates with a MySQL database, implements a caching mechanism using
+Redis, and uses HTTP basic authentication. API documentation is provided using
+OpenAPI Swagger.
 
 ## Features
 
-- ** Skill-based Resource Search ** Quickly find resources within the organization/outside the organization(vendor) based on specific skill sets.
+- ** Skill-based Resource Search ** Quickly find resources within the organization/outside
+the organization(vendor) based on specific skill sets.
 - ** MySQL Database Integration ** Store and manage user data and application configurations.
 - ** Redis Caching ** Enhance performance through effective caching mechanisms.
-- ** Secure Authentication ** Protect sensitive endpoints with HTTP basic authentication using spring sercurity.
+- ** Secure Authentication ** Protect sensitive endpoints with HTTP basic authentication
+using spring sercurity.
 - ** API Documentation ** Easily explore and interact with APIs via Swagger UI.
 
 ## Getting Started
@@ -38,13 +42,15 @@ To run this project locally, you will need:
    - Before starting the application, create a database named `requirement_service`.
 
 2. **Run the SQL Script:**
-   - Execute the SQL script present inside IMP DOCS directory to set up the necessary tables and default user/password: admin/fun123
+   - Execute the SQL script present inside IMP DOCS directory to set up the necessary
+     tables and default user/password: admin/fun123
 
   
 
 ### Configuration
 
-Before running the application, configure the database and Redis settings in `application.properties` as per your conguration:
+Before running the application, configure the database and Redis settings in
+`application.properties` as per your conguration:
 
 ```properties
 spring.application.name=RequirementServiceBackend
@@ -88,7 +94,8 @@ To run the Spring Boot application, follow these steps:
 
 ## API Documentation
 
-The API documentation is automatically generated using OpenAPI (Swagger) and can be viewed in two ways:
+The API documentation is automatically generated using OpenAPI (Swagger) and can be 
+viewed in two ways:
 
 1.	Locally: Once the application is running, navigate to:
 
@@ -97,7 +104,8 @@ The API documentation is automatically generated using OpenAPI (Swagger) and can
 This provides a fully interactive interface to explore the APIs.
 
 2.	Online (Hosted on GitHub Pages):
-Even without running the application, you can view the API documentation hosted on GitHub Pages:
+Even without running the application, you can view the API documentation hosted on
+GitHub Pages:
 
          https://asifiqbalsekh.github.io/requirement-service-application/swagger-ui/index.html 
 
@@ -111,13 +119,15 @@ Even without running the application, you can view the API documentation hosted 
 
 ## Deployment
 
-The project can be deployed to any cloud platform or server that supports Java and Spring Boot. To create a deployable `.jar` file, use the following command:
+The project can be deployed to any cloud platform or server that supports Java and Spring Boot. 
+To create a deployable `.jar` file, use the following command:
 
 ```bash
 mvn clean package
 ```
 
-This will generate a `.jar` file in the `target` directory, which can then be deployed to your server or cloud platform.
+This will generate a `.jar` file in the `target` directory, which can then be deployed to your server 
+or cloud platform.
 
 ## Contributing
 
