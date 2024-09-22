@@ -1,22 +1,25 @@
 ```markdown
-# requirement-service-application Offline Swagger: https://asifiqbalsekh.github.io/requirement-service-application/swagger-ui/index.html
+# requirement-service-application
+Offline Swagger: https://asifiqbalsekh.github.io/requirement-service-application/swagger-ui/index.html
 
 ## Project Overview
 
-The requirement-service-application is a Spring Boot-based application designed to help organizations find the right personnel based on their skill sets. It consists of two main services:
+The requirement-service-application is a Spring Boot-based application designed to help organizations find the right personnel
+based on their skill sets. It consists of two main services:
 
-- **External Recruitment Service**
-- **Internal Recruitment Service**
+- ** External Recruitment Service **
+- ** Internal Recruitment Service **
 
-The application integrates with a MySQL database, implements a caching mechanism using Redis, and uses HTTP basic authentication. API documentation is provided using **OpenAPI Swagger**.
+The application integrates with a MySQL database, implements a caching mechanism using Redis, and uses HTTP basic authentication.
+API documentation is provided using ** OpenAPI Swagger **.
 
 ## Features
 
-- **Skill-based Resource Search:** Quickly find resources within the organization based on specific skill sets.
-- **MySQL Database Integration:** Store and manage user data and application configurations.
-- **Redis Caching:** Enhance performance through effective caching mechanisms.
-- **Secure Authentication:** Protect sensitive endpoints with HTTP basic authentication.
-- **API Documentation:** Easily explore and interact with APIs via Swagger UI.
+- ** Skill-based Resource Search ** Quickly find resources within the organization/outside the organization(vendor) based on specific skill sets.
+- ** MySQL Database Integration ** Store and manage user data and application configurations.
+- ** Redis Caching ** Enhance performance through effective caching mechanisms.
+- ** Secure Authentication ** Protect sensitive endpoints with HTTP basic authentication using spring sercurity.
+- ** API Documentation ** Easily explore and interact with APIs via Swagger UI.
 
 ## Getting Started
 
