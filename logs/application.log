@@ -1,0 +1,32 @@
+2024-09-22 20:34:14 - c.a.R.RequirementServiceBackendApplication - Starting RequirementServiceBackendApplication using Java 22.0.1 with PID 2922 (/Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend/target/classes started by skasifiqbal in /Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend)
+2024-09-22 20:34:14 - c.a.R.RequirementServiceBackendApplication - The following 1 profile is active: "dev"
+2024-09-22 20:34:16 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.701 seconds (process running for 3.201)
+2024-09-22 20:34:41 - c.a.R.c.ExternalRecruitmentController - This is an info message
+2024-09-22 20:34:41 - c.a.R.c.ExternalRecruitmentController - This is an error message
+2024-09-22 20:36:33 - c.a.R.u.GlobalExceptionHandeller - Unable to connect to Redis
+2024-09-22 20:36:33 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis]
+2024-09-22 20:39:37 - c.a.R.RequirementServiceBackendApplication - Starting RequirementServiceBackendApplication using Java 22.0.1 with PID 3342 (/Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend/target/classes started by skasifiqbal in /Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend)
+2024-09-22 20:39:37 - c.a.R.RequirementServiceBackendApplication - The following 1 profile is active: "dev"
+2024-09-22 20:39:39 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.491 seconds (process running for 2.887)
+2024-09-22 20:44:23 - c.a.R.RequirementServiceBackendApplication - Starting RequirementServiceBackendApplication using Java 22.0.1 with PID 3373 (/Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend/target/classes started by skasifiqbal in /Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend)
+2024-09-22 20:44:23 - c.a.R.RequirementServiceBackendApplication - The following 1 profile is active: "dev"
+2024-09-22 20:44:25 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.412 seconds (process running for 2.782)
+2024-09-22 21:00:08 - c.a.R.RequirementServiceBackendApplication - Starting RequirementServiceBackendApplication using Java 22.0.1 with PID 4007 (/Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend/target/classes started by skasifiqbal in /Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend)
+2024-09-22 21:00:08 - c.a.R.RequirementServiceBackendApplication - The following 1 profile is active: "dev"
+2024-09-22 21:00:11 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.618 seconds (process running for 2.956)
+2024-09-22 21:06:44 - c.a.R.RequirementServiceBackendApplication - Starting RequirementServiceBackendApplication using Java 22.0.1 with PID 4034 (/Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend/target/classes started by skasifiqbal in /Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend)
+2024-09-22 21:06:44 - c.a.R.RequirementServiceBackendApplication - The following 1 profile is active: "dev"
+2024-09-22 21:06:46 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.416 seconds (process running for 2.743)
+2024-09-22 21:09:13 - c.a.R.RequirementServiceBackendApplication - Starting RequirementServiceBackendApplication using Java 22.0.1 with PID 4411 (/Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend/target/classes started by skasifiqbal in /Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend)
+2024-09-22 21:09:13 - c.a.R.RequirementServiceBackendApplication - The following 1 profile is active: "dev"
+2024-09-22 21:09:15 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.483 seconds (process running for 2.832)
+2024-09-22 21:09:25 - c.a.R.c.ExternalRecruitmentController - This is an info message
+2024-09-22 21:09:25 - c.a.R.c.ExternalRecruitmentController - This is an error message
+2024-09-22 21:21:48 - c.a.R.RequirementServiceBackendApplication - Starting RequirementServiceBackendApplication using Java 22.0.1 with PID 4477 (/Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend/target/classes started by skasifiqbal in /Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend)
+2024-09-22 21:21:48 - c.a.R.RequirementServiceBackendApplication - The following 1 profile is active: "dev"
+2024-09-22 21:21:50 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.514 seconds (process running for 2.903)
+2024-09-22 21:22:44 - c.a.R.RequirementServiceBackendApplication - Starting RequirementServiceBackendApplication using Java 22.0.1 with PID 4484 (/Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend/target/classes started by skasifiqbal in /Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend)
+2024-09-22 21:22:44 - c.a.R.RequirementServiceBackendApplication - The following 1 profile is active: "dev"
+2024-09-22 21:22:47 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.477 seconds (process running for 2.788)
+2024-09-22 21:23:15 - c.a.R.u.GlobalExceptionHandeller - No static resource favicon.ico.
+2024-09-22 21:23:15 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
