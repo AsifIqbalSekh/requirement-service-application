@@ -1,5 +1,5 @@
 ```markdown
-# requirement-service-application
+# requirement-service-application Offline Swagger: https://asifiqbalsekh.github.io/requirement-service-application/swagger-ui/index.html
 
 ## Project Overview
 
@@ -89,10 +89,8 @@ The API documentation is automatically generated using OpenAPI (Swagger) and can
 
 1.	Locally: Once the application is running, navigate to:
 
-```
            http://localhost:8080/swagger-ui/index.html
 
-```
 This provides a fully interactive interface to explore the APIs.
 
 2.	Online (Hosted on GitHub Pages):
