@@ -35,42 +35,13 @@ To run this project locally, you will need:
    - Before starting the application, create a database named `requirement_service`.
 
 2. **Run the SQL Script:**
-   - Execute the following SQL script to set up the necessary tables and default admin user:
+   - Execute the SQL script present inside IMP DOCS directory to set up the necessary tables and default user/password: admin/fun123
 
-   ```sql
-   USE `requirement_service`;
-
-   DROP TABLE IF EXISTS `authorities`;
-   DROP TABLE IF EXISTS `users`;
-
-   CREATE TABLE `users` (
-     `username` varchar(50) NOT NULL,
-     `password` char(100) NOT NULL,
-     `enabled` tinyint NOT NULL,
-     PRIMARY KEY (`username`)
-   ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-   INSERT INTO `users` 
-   VALUES 
-   ('admin','{bcrypt}$2a$10$qeS0HEh7urweMojsnwNAR.vcXJeXR1UcMRZ2WcGQl9YeuspUdgF.q',1);
-
-   CREATE TABLE `authorities` (
-     `username` varchar(50) NOT NULL,
-     `authority` varchar(50) NOT NULL,
-     UNIQUE KEY `authorities4_idx_1` (`username`,`authority`),
-     CONSTRAINT `authorities4_ibfk_1` FOREIGN KEY (`username`) REFERENCES `users` (`username`)
-   ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-   INSERT INTO `authorities` 
-   VALUES 
-   ('admin','ROLE_EMPLOYEE'),
-   ('admin','ROLE_MANAGER'),
-   ('admin','ROLE_ADMIN');
-   ```
+  
 
 ### Configuration
 
-Before running the application, configure the database and Redis settings in `application.properties`:
+Before running the application, configure the database and Redis settings in `application.properties` as per your conguration:
 
 ```properties
 spring.application.name=RequirementServiceBackend
@@ -80,18 +51,6 @@ spring.datasource.url=jdbc:mysql://localhost:3306/requirement_service
 spring.datasource.username=springstudent
 spring.datasource.password=springstudent
 
-# JPA Configuration
-spring.jpa.hibernate.ddl-auto=update
-
-# API Documentation
-springdoc.api-docs.path=/v3/api-docs
-springdoc.swagger-ui.path=/swagger-ui.html
-
-# Logging Configuration
-logging.level.root=warn
-logging.level.com.asifiqbalsekh.RequirementServiceBackend=info
-spring.jpa.open-in-view=false
-logging.file.name=logs/application.log
 
 # Redis Configuration
 spring.data.redis.host=localhost
