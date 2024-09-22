@@ -30,3 +30,6 @@
 2024-09-22 21:22:47 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.477 seconds (process running for 2.788)
 2024-09-22 21:23:15 - c.a.R.u.GlobalExceptionHandeller - No static resource favicon.ico.
 2024-09-22 21:23:15 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-09-22 21:37:04 - c.a.R.RequirementServiceBackendApplication - Starting RequirementServiceBackendApplication using Java 22.0.1 with PID 5033 (/Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend/target/classes started by skasifiqbal in /Users/skasifiqbal/Desktop/BackEnd/Z_MyProject/RequirementServiceBackend)
+2024-09-22 21:37:04 - c.a.R.RequirementServiceBackendApplication - The following 1 profile is active: "dev"
+2024-09-22 21:37:07 - c.a.R.RequirementServiceBackendApplication - Started RequirementServiceBackendApplication in 2.568 seconds (process running for 2.986)
