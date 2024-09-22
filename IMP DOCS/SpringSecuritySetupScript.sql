@@ -1,4 +1,4 @@
-USE `employee_directory`;
+USE `requirement_service`;
 
 DROP TABLE IF EXISTS `authorities`;
 DROP TABLE IF EXISTS `users`;
@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS `users`;
 
 CREATE TABLE `users` (
   `username` varchar(50) NOT NULL,
-  `password` char(68) NOT NULL,
+  `password` char(100) NOT NULL,
   `enabled` tinyint NOT NULL,
   PRIMARY KEY (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -21,7 +21,7 @@ CREATE TABLE `users` (
 --
 -- A generation tool is avail at: https://www.luv2code.com/generate-bcrypt-password
 --
--- Default passwords here are: fun123
+-- username admin , Default passwords here are: fun123
 --
 
 INSERT INTO `users` 
